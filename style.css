@@ -254,7 +254,6 @@ body {
 
 .clients {
   margin: 0 auto;
-  margin-top: 2.81rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -265,6 +264,11 @@ body {
 
 .clients-img {
   width: 100%;
+}
+
+.clients-img svg {
+  width: auto;
+  height: 100%;
   cursor: pointer;
 }
 
