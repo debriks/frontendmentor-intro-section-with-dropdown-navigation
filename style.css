@@ -189,7 +189,7 @@ body {
   border: 2px solid var(--clr-medium-gray);
   border-radius: var(--br-btn);
   width: 100%;
-  padding: 0.9rem;
+  padding: 0.9rem 0.9rem 0.8rem 0.9rem;
 }
 
 .btn-login:hover {
