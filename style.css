@@ -253,13 +253,14 @@ body {
 /* CLIENTS */
 
 .clients {
+  margin: 0 auto;
   margin-top: 2.81rem;
   display: flex;
   justify-content: space-between;
-  flex-shrink: 1;
   align-items: center;
+  flex-shrink: 1;
   gap: 1rem;
-  width: 21.56rem;
+  width: 85vw;
 }
 
 .clients-img {
