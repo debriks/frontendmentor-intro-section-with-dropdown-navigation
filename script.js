@@ -1,7 +1,7 @@
 const navLinkTitles = document.querySelectorAll(".nav-link-title");
+const navBar = document.getElementById("navBar");
 const btnHamburger = document.getElementById("btnHamburger");
 const btnClose = document.getElementById("btnClose");
-const navBar = document.getElementById("navBar");
 
 const toggleSubNavs = (navLinkTitle, i) => {
   const subNavLink = navLinkTitle.nextElementSibling;
