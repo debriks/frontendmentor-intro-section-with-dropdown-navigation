@@ -13,6 +13,7 @@
 
   /* FONT SIZES */
 
+  /* 16px / 18px / 35px / 80px / 18px */
   --fs-body-sm: 1rem;
   --fs-body-med: 1.125rem;
   --fs-heading-sm: 2.18rem;
@@ -21,9 +22,11 @@
 
   /* LINE HEIGHTS */
 
+  /* 26px / 28px / 41px / 80px */
   --lh-body-sm: 1.625rem;
   --lh-body-med: 1.75rem;
-  --lh-heading-l: 80px;
+  --lh-heading-sm: 2.56rem;
+  --lh-heading-l: 5rem;
 
   /* FONT WEIGHTS */
 
@@ -218,7 +221,7 @@ body {
 
 .hero-content h1 {
   font-size: var(--fs-heading-sm);
-  line-height: 41px;
+  line-height: var(--lh-heading-sm);
 }
 
 .heading-lb {
@@ -378,7 +381,7 @@ body {
   }
 
   .subnav-link {
-    padding: 0 1.56rem 10px 1.56rem;
+    padding: 0 1.56rem 0.625rem 1.56rem;
   }
 
   .subnav-link:last-child {
@@ -441,7 +444,7 @@ body {
   .hero {
     margin: 3.44rem 5rem 0 9.375rem;
     display: grid;
-    grid-template-columns: minmax(400px, auto) 630px;
+    grid-template-columns: minmax(25rem, auto) 39.4rem;
   }
 
   .hero-content p {
