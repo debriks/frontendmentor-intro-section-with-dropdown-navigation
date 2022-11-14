@@ -379,7 +379,7 @@ body {
     top: 2.5rem;
     right: 0;
     background-color: var(--clr-white);
-    box-shadow: 0 0 1.56rem rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 5rem 0px rgb(24 50 67 / 16%);
     border-radius: var(--br-nav);
     pointer-events: all;
     width: max-content;
